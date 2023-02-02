@@ -1,0 +1,29 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.container{  
+    flex-wrap: wrap;
+    .box{
+        display: flex;
+        .card.w-30.mt-3{
+            padding:20px;
+            h3{
+                font-weight:600 ;
+            }
+    
+            p{
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            .button{
+                padding:10px;
+                background-color: #1fab41;
+                color:$color-white;
+                text-decoration: none;
+                border-radius: 5px;
+                
+            }
+        }
+    }
+}
